@@ -86,7 +86,7 @@ app.get('/about', (req, res) => {
     
     name: 'Andrew Nunez',
     paragraphs: [
-      'My name is Andrew Nunez'
+      'My name is Andrexw Nunez'
     ],
     imageUrl: 'http://localhost:5002/aan9558.JPG'
   })
