@@ -1,0 +1,19 @@
+.about-us {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+  margin: 20px 0;
+}
+
+.about-us p {
+  text-align: left;
+  line-height: 1.6;
+}
