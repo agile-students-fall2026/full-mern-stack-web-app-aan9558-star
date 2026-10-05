@@ -15,6 +15,10 @@ const AboutUs = () => {
         })
     }, [])
 
+  if (!about) {
+    return <p>Loading...</p>
+  }
+
   return (
     <div className="about-us">
       <h1>About Us</h1>
