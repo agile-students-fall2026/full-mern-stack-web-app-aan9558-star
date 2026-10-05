@@ -5,19 +5,15 @@ const AboutUs = () => {
   const [about, setAbout] = useState(null)
 
   useEffect(() => {
-    fetch(`${import.meta.env.VITE_SERVER_HOSTNAME}/about`)
-      .then(response => response.json())
-      .then(data => {
-        setAbout(data)
-      })
-      .catch(error => {
-        console.error('Error:', error)
-      })
-  }, [])
-
-  if (!about) {
-    return <p>Loading...</p>
-  }
+      fetch(`${import.meta.env.VITE_SERVER_HOSTNAME}/about`)
+        .then(response => response.json())
+        .then(data => {
+          setAbout(data)
+        })
+        .catch(error => {
+          console.error('Error:', error)
+        })
+    }, [])
 
   return (
     <div className="about-us">
