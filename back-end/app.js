@@ -86,7 +86,9 @@ app.get('/about', (req, res) => {
     
     name: 'Andrew Nunez',
     paragraphs: [
-      'My name is Andrexw Nunez'
+      'My name is Andrew Nunez, and I am currently a Computer Science student at New York University. I grew up in Saipan, Northern Mariana Islands, and moved to New York for college. Moving from a small island to New York was a big change, but it gave me the opportunity to meet new people, experience different cultures, and grow as a person. I have always been interested in technology and how it can be used to solve problems.', 
+      'While studying Computer Science, I discovered that I am more interested in the IT and systems side of technology than coding. I currently work as a Desktop Support Assistant at NYU, where I troubleshoot computers, printers, software, and other technical issues. This experience has helped me improve my problem-solving and communication skills.',
+      'Outside of school and work, I enjoy going to the gym, spending time with friends and family, and learning about technology. My background in Saipan and my Filipino family have also played an important role in shaping who I am. In the future, I hope to build a career in IT operations, systems administration, or technology management where I can use technology to solve real-world problems.'
     ],
     imageUrl: 'http://localhost:5002/aan9558.JPG'
   })
